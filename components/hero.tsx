@@ -124,7 +124,7 @@ export default function Hero() {
         {/* Enhanced CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-fade-in-up animation-delay-700">
           <a
-            href="https://wa.me/"
+            href="https://wa.me/971589752239"
             className="group relative px-8 py-4 bg-linear-to-r from-accent to-accent/80 text-white rounded-xl font-semibold overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-accent/50 active:scale-95 transform hover:scale-105"
           >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />

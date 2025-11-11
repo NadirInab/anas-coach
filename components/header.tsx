@@ -28,11 +28,25 @@ export default function Header() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-2xl font-bold tracking-tight">
-          <span className="bg-gradient-to-r from-accent to-accent/70 bg-clip-text text-transparent">FIT</span>
-          <span className="text-foreground">PRO</span>
-        </div>
+        {/* Creative Minimalist Logo */}
+        <button 
+          onClick={() => scrollToSection("hero")}
+          className="flex items-center gap-2 group cursor-pointer transition-transform duration-300 hover:scale-105"
+        >
+          {/* Geometric icon */}
+          <div className="relative w-8 h-8 flex items-center justify-center">
+            {/* Outer circle */}
+            <div className="absolute inset-0 border-2 border-accent rounded-full" />
+            {/* Inner ascending bars */}
+            <div className="flex items-end justify-center gap-1 h-4 w-4">
+              <div className="w-1 h-2 bg-accent rounded-sm group-hover:h-2.5 transition-all" />
+              <div className="w-1 h-3 bg-accent rounded-sm group-hover:h-4 transition-all" />
+              <div className="w-1 h-4 bg-accent rounded-sm group-hover:h-5 transition-all" />
+            </div>
+          </div>
+          {/* Brand text */}
+          <span className="text-xl font-bold bg-linear-to-r from-accent to-accent/70 bg-clip-text text-transparent">ANAS</span>
+        </button>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
